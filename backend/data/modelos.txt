@@ -1,0 +1,25 @@
+Toyota - Corolla
+Toyota - Yaris
+Toyota - RAV4
+Honda - Civic
+Honda - CR-V
+Honda - Accord
+Ford - Focus
+Ford - Fiesta
+Ford - Mustang
+Chevrolet - Aveo
+Chevrolet - Onix
+Chevrolet - Camaro
+Nissan - Sentra
+Nissan - Versa
+Nissan - Altima
+BMW - Serie 3
+BMW - Serie 5
+Audi - A3
+Audi - A4
+Mercedes-Benz - Clase C
+Mercedes-Benz - Clase E
+Hyundai - Elantra
+Hyundai - Tucson
+Kia - Rio
+Kia - Sportage

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marcas y Modelos (Fetch + Express)</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Selector de Marcas → Modelos (Fetch)</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <div class="row">
+        <div>
+          <label for="marca">Marca</label>
+          <select id="marca" aria-label="Marcas" disabled>
+            <option>Cargando marcas…</option>
+          </select>
+          <p class="hint">Al elegir una marca, se pintará el fondo del selector de modelos con un color asignado a esa marca.</p>
+        </div>
+        <div>
+          <label for="modelo">Modelo</label>
+          <select id="modelo" aria-label="Modelos" disabled>
+            <option>Selecciona una marca primero…</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="hint" id="estado"><span class="status"><span class="dot"></span> Backend</span> esperando respuesta…</p>
+      <div class="hint endpoints">
+        <span class="pill">GET <span class="kbd">/marcas</span></span>
+        <span class="pill">GET <span class="kbd">/modelos?marca={NOMBRE}</span></span>
+      </div>
+
+      <p class="hint nota">
+        Usar el servicio de <strong>Node.js + Express</strong> que se encuentra en <strong>ivirtual</strong> para el ejercicio.
+        Si tu backend está en ivirtual con URL pública (por ejemplo <em>https://ivirtual.tu-dominio:8888</em>), ajusta la constante <code>CANDIDATE_BASES</code> en <code>frontend/js/app.js</code>.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Esta página consume el servicio Node.js + Express (puerto 8888 por defecto).</p>
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
